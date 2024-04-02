@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Herohuapp_automation_suite">
+  <test thread-count="5" name="Herohuapp_1">
+    <classes>
+      <class name="com.herohuapp.Test.BasePage_Test"/>
+      <class name="com.herohuapp.Test.Add_RemoveElementPage_Test"/>
+      <class name="com.herohuapp.Test.CheckboxesPage_Test"/>
+    </classes>
+  </test> <!-- herohuapp_TestSuite -->
+</suite> <!-- Suite -->
